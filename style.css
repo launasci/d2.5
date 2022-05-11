@@ -1,0 +1,432 @@
+/* ---------- TAMANHO 425PX ---------------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f1eee6;
+}
+.background {
+  background-image: url(./Imagens/background-foods-v4.png);
+  background-attachment: fixed;
+}
+
+.logo > img {
+  margin-left: 5%;
+  width: 85%;
+  height: 85%;
+  margin-bottom: -25%;
+  margin-top: -3%;
+}
+
+h1,
+h3 {
+  margin-top: 3%;
+  text-align: center;
+  letter-spacing: 1.8pt;
+  word-spacing: -2.4pt;
+  line-height: 1.4;
+}
+
+.profissao {
+  margin-left: 2%;
+}
+
+.fundo {
+  background-color: #d9e5d6;
+  width: 70%;
+  margin: 5% auto;
+}
+
+.cabecalho > li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  background-color: #d9e5d6;
+}
+
+.cabecalho > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  color: #d9be90;
+}
+
+.img-perfil {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-bottom: 1%;
+  float: left;
+}
+
+.bio {
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#experiencia,
+#portfolio,
+#habilidade,
+#contato {
+  border-bottom: 4px solid #d9be90;
+  width: 53%;
+  margin: 6% 0% 2% 22%;
+}
+
+.exp-intro {
+  font-size: 1rem;
+  text-align: justify;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+  line-height: 1.5;
+}
+
+/* LISTA DA DESCRIÇÃO */
+.restaurantes {
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.rest-nome {
+  list-style: none;
+  font-size: 1.2rem;
+  text-align: right;
+  margin-top: 1%;
+  background-color: #d9be90;
+}
+
+.descricao {
+  list-style: none;
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 8%;
+  background-color: #d9e5d6;
+}
+
+.img-style {
+  filter: grayscale(1);
+}
+
+.img-style:hover {
+  filter: none;
+}
+.img-pratos {
+  margin-left: 18%;
+  width: 65%;
+  height: 65%;
+  margin-top: 3%;
+  border-radius: 5%;
+}
+
+progress {
+  width: 90%;
+  accent-color: #d9be90;
+  height: 15px;
+  margin-left: 2%;
+}
+
+.culinaria {
+  margin-top: 8%;
+}
+
+.culinaria > h4 {
+  display: inline-block;
+  margin-left: 2%;
+  font-weight: 55;
+  font-style: italic;
+  margin-bottom: 0%;
+}
+
+.culinaria > .porcetagem {
+  display: inline-block;
+  margin-left: 77%;
+}
+
+.contato {
+  margin-top: 5%;
+  font-size: 1.1rem;
+}
+
+.links {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0%;
+}
+
+h4 {
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+h4 > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.seta a > img {
+  width: 8%;
+  height: 5%;
+  position: fixed;
+  bottom: 3%;
+  left: 90%;
+  opacity: 0.3;
+}
+
+.seta a > img:hover {
+  opacity: 1;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* ------------ MEDIA QUERIES --------------- */
+
+@media (max-width: 375px) {
+  .logo > img {
+    margin-left: 24%;
+    width: 50%;
+    height: 50%;
+    margin-bottom: -13%;
+    margin-top: 3%;
+  }
+
+  h1,
+  h3 {
+    margin-top: 1%;
+    text-align: center;
+    letter-spacing: 1.8pt;
+    word-spacing: -2.4pt;
+    line-height: 1.4;
+    font-size: 1.2rem;
+  }
+
+  .profissao {
+    margin-left: 3%;
+  }
+
+  .cabecalho > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+  }
+
+  .img-perfil {
+    margin-top: 5%;
+  }
+
+  .culinaria {
+    margin-top: 3%;
+  }
+
+  #experiencia,
+  #portfolio,
+  #habilidade,
+  #contato {
+    margin: 6% 0% 5% 22%;
+  }
+
+  .culinaria > h4 {
+    margin-bottom: 0%;
+  }
+
+  .culinaria > .porcetagem {
+    display: inline-block;
+    margin-left: 25%;
+  }
+
+  .seta a > img {
+    width: 7%;
+    height: 3%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo > img {
+    margin-left: 24%;
+    width: 50%;
+    height: 50%;
+    margin-bottom: -13%;
+    margin-top: 3%;
+  }
+
+  h1,
+  h3 {
+    margin-top: 1%;
+    text-align: center;
+    letter-spacing: 1.8pt;
+    word-spacing: -2.4pt;
+    line-height: 1.4;
+    font-size: 1.5rem;
+  }
+
+  .cabecalho > li {
+    margin-left: 6%;
+  }
+
+  .cabecalho > li > a {
+    font-size: 1.3rem;
+  }
+
+  .culinaria > h4 {
+    display: inline-block;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    font-weight: 55;
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+
+  .culinaria > .porcetagem {
+    margin-left: 45%;
+  }
+
+  .seta a > img {
+    width: 7%;
+    height: 6%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo > img {
+    margin-left: 24%;
+    width: 50%;
+    height: 50%;
+    margin-bottom: -13%;
+    margin-top: 3%;
+  }
+
+  h1,
+  h3 {
+    margin-top: 1%;
+    text-align: center;
+    letter-spacing: 1.8pt;
+    word-spacing: -2.4pt;
+    line-height: 1.4;
+    font-size: 1.5rem;
+  }
+
+  .cabecalho > li {
+    margin-left: 7.5%;
+    margin-bottom: 4%;
+  }
+
+  .cabecalho > li > a {
+    font-size: 1.5rem;
+  }
+
+  .img-perfil {
+    margin-bottom: 0%;
+  }
+
+  .bio {
+    font-size: 1.1rem;
+  }
+
+  .exp-intro {
+    font-size: 1.1rem;
+  }
+
+  .rest-nome {
+    font-size: 1.3rem;
+  }
+
+  .descricao {
+    font-size: 1.1rem;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
+
+  #experiencia,
+  #portfolio,
+  #habilidade,
+  #contato {
+    margin: 6% 0% 0% 22%;
+  }
+
+  .culinaria {
+    margin-top: 6%;
+  }
+
+  .culinaria > h4 {
+    margin-left: 4%;
+    font-size: 1.2rem;
+  }
+
+  .culinaria > .porcetagem {
+    margin-left: 59%;
+  }
+
+  .seta a > img {
+    width: 6%;
+    height: 6%;
+  }
+
+  .rodape {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1044px) {
+  .logo > img {
+    margin-left: 29%;
+    width: 40%;
+    height: 40%;
+    margin-bottom: -12%;
+    margin-top: -3%;
+  }
+
+  h1,
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .cabecalho > li {
+    margin-left: 11.5%;
+    margin-bottom: 0%;
+  }
+
+  .bio {
+    margin-top: 9%;
+  }
+
+  .img-perfil {
+    margin-top: 9%;
+  }
+
+  h1,
+  h3 {
+    font-size: 2rem;
+  }
+
+  .links {
+    margin-top: 1%;
+}
+  h4 > a {
+    font-size: 1.3rem;
+  }
+
+  .seta a > img {
+    width: 5%;
+    height: 6%;
+    margin-bottom: 10%;
+  }
+
+}
